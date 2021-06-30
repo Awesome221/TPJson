@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>JSON TP2_Exercice3</title>
+		<meta charset="utf-8"/>
+	</head>
+	<style>
+		body{
+			padding-top: 50px;
+			text-align: center;
+			font-weight: bold;
+			background-color: #555;
+			color: #FFF;
+		}
+		button{
+			font-size: 35px;
+		}
+	</style>
+	<body>
+		<button onclick="afficherEtu()">
+			Afficher notes
+		</button>
+		<button onclick="moyenneNote()">
+			Moyenne
+		</button>
+		<button onclick="supprimerNote()">
+			Supprimer une note
+		</button>
+		<p id="demo"></p>
+		<p id="not"></p>
+	</body>
+</html>
+<script>
+	var etudiant = {"nom": "KA", "prénom":"Aliou Dadal", "notes":
+	[10, 15, 17, 16, 12, 19, 15, 18, 20, 18]};
+	
+function afficherEtu() {
+
+	document.getElementById('demo').innerHTML = etudiant.prénom+' '+etudiant.nom+' : ';
+
+	for(x in etudiant.notes){
+		document.getElementById('demo').innerHTML += etudiant.notes[x]+', ';
+		}
+	}
+
+function moyenneNote(){
+	var moyenne;
+	var somme=0;
+	for(n in etudiant.notes){
+		 somme+=etudiant.notes[n];
+		}
+		moyenne=somme / etudiant.notes.length;
+		
+	document.getElementById('not').innerHTML += "L'étudiant a une moyenne de "+ moyenne;
+	}
+
+function supprimerNote(){
+	var spr = window.prompt("Saisir la note à supprimée ");
+	for(sp in etudiant.notes){
+		if(etudiant.notes[sp] == spr)
+			delete etudiant.notes[sp];
+	}
+	afficherEtu();
+}
+</script>

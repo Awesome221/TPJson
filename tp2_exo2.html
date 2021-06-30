@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>JSON TP2_Exercice2</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<button onclick="afficherEtu()">
+			Afficher notes
+		</button>
+		<button onclick="chercherNote()">
+			Rechercher une note
+		</button>
+		<button onclick="supprimerNote()">
+			Supprimer une matière
+		</button>
+		<p id="demo"></p>
+		<p id="not"></p>
+	</body>
+</html>
+<script>
+	var etudiant = {"nom": "KA", "prénom":"Aliou Dadal", "notes":{
+		"algo":10, 
+		"html":15,
+		"php":17,
+		"mysql":16,
+		"anglais":12}};
+	
+function afficherEtu() {
+
+	document.getElementById('demo').innerHTML = etudiant.prénom+' '+etudiant.nom+' : ';
+
+	for(x in etudiant.notes){
+		document.getElementById('demo').innerHTML += x+' : '+etudiant.notes[x]+', ';
+		}
+	}
+
+function chercherNote(){
+	var txt=' ';
+	var obj = window.prompt('Saisir la note recherchée :');
+	for(n in etudiant.notes){
+		if(etudiant.notes[n] ==  obj)
+			txt += n+ "<br>";
+		}
+		
+	document.getElementById('not').innerHTML += txt;
+	}
+
+function supprimerNote(){
+	var spr = window.prompt("Saisir la matière à supprimée ");
+	for(sp in etudiant.notes){
+		if(sp == spr)
+			delete etudiant.notes[sp];
+	}
+	afficherEtu();
+}
+</script>

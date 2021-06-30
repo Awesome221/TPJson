@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>JSON TP2_Exercice1</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		<h3>Notation avec point</h3>
+		<p id="demo"></p>
+		<h3>Notation avec crochet</h3>
+		<p id="cro"></p>
+		<button onclick="change()">Change Prénom</button>
+		<h3>Propriétés de notre objet personne</h3>
+		<p id='propri'></p>
+		<h3>Valeurs de la variable personne</h3>
+		<p id='val'></p>
+	</body>
+</html>
+<script>
+	var personne = {"nom": "KA", "prénom":"Aliou Dadal", "âge":29};
+	
+	document.getElementById('demo').innerHTML = personne.prénom+' '+personne.nom+', '+personne.âge+' ans';
+
+	document.getElementById('cro').innerHTML = personne["nom"]+' '+personne["prénom"]+', '+personne["âge"]+' ans'; 
+
+function change() {
+	var prn = window.prompt("Changer de prénom?");
+	personne.prénom = prn;
+
+	document.getElementById('demo').innerHTML = personne.prénom+' '+personne.nom+', '+personne.âge+' ans';
+
+	document.getElementById('cro').innerHTML = personne["nom"]+' '+personne["prénom"]+', '+personne["âge"]+' ans'; 
+
+}
+
+for(x in personne){
+	document.getElementById('propri').innerHTML += x+' '; 
+}
+
+for(x in personne){
+	document.getElementById('val').innerHTML += personne[x]+' ';
+}
+</script>
