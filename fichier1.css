@@ -1,0 +1,994 @@
+@media only screen and (max-width: 800px){
+    #titu, #sect, #slider_test{
+        display: none;
+    }
+    #mcpt{
+        display: inline-block;
+    }
+    #pjf{
+        padding: 1px;
+        font-size: 10px;
+    }
+    #apep, #amtl, #aelt{
+        font-size: 7px;
+    }
+    .activa{
+        padding-top: 11px;
+    }
+    #pjf :hover, #pjf :focus{
+      padding: 2px 7px;
+      font-weight: normal;
+      background-color: #555;}
+    .active{
+        padding-top: 8px;
+    }
+    #pjt, #fond, #pjts, #vprs, #tns, #ftb{
+      padding: 5px;
+      margin-right: 1px;
+    }
+    #pari{
+        margin-left: 5px;
+    }
+    #c1, #c2, #c3, #c4, #rc1, #rc2, #league1, #league2, #league3, #live1, #live2, #live3, #live4, #live5, #live6, #live7, #live8{
+        display: inline-block;
+        padding: 1px;
+        margin: 1px;
+    }
+    #sttr{
+        font-size: 12px;
+    }
+    #c1, #rc1, #league1{
+        margin-left: 0;
+    }
+    #ift
+    {
+      color: #FFF;
+      padding: 3px;
+      font-size: 9px; 
+      background-color: #555;
+    }
+    #programme
+    {
+      padding: 5px;
+      color: #FFF;
+      margin-top: 19px;
+      background-color: black;
+    }
+    #league1, #league2, #league3, #league4, #league5{
+      background-color: #888;
+      padding: 3px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin: 3px;
+      color: #000;
+    }
+    #league1{
+      margin-left: 0px;
+    }
+    #league4, #league5{
+      margin-top: 10px;
+    }
+    #pays, #sttr{
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 700px){
+    #connexion{
+        height: 85px;
+        padding-left: 160px;
+        font-size: 14px;
+    }
+    #mcpt{
+        display: none;
+        }
+    #titu{
+      display: inline-block;
+    }
+    #nomp{
+      display: inline-block;
+    }
+    #sect{
+      display: inline-block;
+    }
+    #imin
+    {
+      margin-left: -20px;
+    }
+    #pari
+    {
+      margin-left: 60px;
+    }
+}
+html, body {
+  text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#dtl{
+  font-size: 10px;
+}
+.toggle_btn{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.toggle_btn span{
+    height: 3px;
+    background-color: #2c3e50;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.toggle_btn span:before{
+    content: '';
+    height: 3px;
+    background-color: #2c3e50;
+    width: 100%;
+    position: absolute;
+    top: -10px;
+    left:  0;
+}
+.toggle_btn span:after{
+    content: '';
+    height: 3px;
+    background-color: #2c3e50;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left:  0;
+}
+.logo a{
+    background-color: rgb(192, 64, 64);
+    color: #FFF;
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.logo{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.nav{
+    margin-left: -200px;
+    transition-duration: 0.4s;
+}
+.nav_open{
+    margin-left:  0;
+    transition-duration: 0.4s;
+}
+#resp{
+    background-color: #000;
+    height: 65px;
+    margin-bottom: 240px;
+    }
+    #resp #connex{
+        margin-top: -300px;
+        height: 60px;
+    }
+#banniere{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    height: 50px;
+    color: #FFF;
+}
+@media only screen and (min-width: 985px){
+    #resp, #connex{
+        display: none;
+    }
+    #od{
+        margin-top: -8px;
+    }
+}
+@media only screen and (max-width: 985px){
+    .colg, #od, #nc{
+        display: none;
+    }
+    #connex, #connexion{
+        float: right;
+        background-color: #000;
+    }
+}
+@media only screen and (max-width: 1190px){
+    .bonus, #secui, #nc{
+        display: none;
+    }
+}
+@media only screen and (max-width: 480px){
+    #connex, #connexion{
+        width: 180px;
+        display: block;
+        font-size: 12px;
+    }
+}
+
+.menu{
+        padding-left: 15px;
+        height: auto;
+        background-color: rgb(192, 64, 64);
+        width: 185px;
+        color: #FFF;
+        display: block;
+}
+#en_cours{
+    background-color: rgb(99, 0, 0);
+    color: #000;
+}
+
+.marg li{
+    list-style: none;
+}
+
+.menu p a, .column ul a{
+    text-decoration: none;
+        color: #FFF;
+}
+    #c
+    {
+      background-color: #000;
+      height: auto;
+      width: 185px;
+    }
+    #menuCe{
+        padding: 47px 0 0 14px;
+        margin: 0 -16px 0 -16px;
+        background-color: #000;
+        font-size: 15px;
+        height: auto;
+        width: auto;
+    }
+    #connexion, #connex{/*rgb(99, 0, 0)*/
+        padding-top: 1px;
+        float: right;
+        background-color: #000;
+        color: #2BB;
+        width: auto;
+    }
+    #welcome, #entre{
+        color: #FFF;
+        width: 130px;
+    }
+    #welcome{
+        background-color: #2BB;
+    }
+    #entre{
+        background-color: #333;
+    }
+    #mdpc, #log
+    {
+    border: 1px solid #fff;
+    box-shadow: inset 0 0 4px 1px #d9dbde;
+    color: #000;
+    width: 111px;
+    padding: 0 2px;
+    height: 20px;
+    -webkit-box-shadow:inset 0 0 4px 1px #d9dbde
+    }
+    #mpo{
+        font-size: 10px;
+        color: #FFF;
+        text-decoration: none;
+    }
+    #cnx, #Mcnx
+    {
+      padding: 2px;
+      margin-top: 1px;
+      background-color: rgb(99, 0, 0);
+      color: #FFF;
+      font-size: 11px;
+    }
+    #Mcnx{
+        margin-top: -10px;
+    }
+    #Mcnx #mpo #nc{
+        padding-left: 112px;
+        font-size: 9px;
+        margin-top: -40px;
+    }
+    #nc
+    {
+      font-size: 10px;
+      margin-top: 5px;
+      color: #2BB;
+      text-decoration: none;
+    }
+    .time{
+        margin: 10px -10px 0 10px;
+        font-size: 13px;
+    }
+    #temps{
+        font: normal 15px Serif, sans-serif;
+    }
+    #news{
+        background-color: #DDD;
+        display: inline-block;
+        margin-left: 4px;
+    }
+    .marquee{
+        height: 1.5em;
+        width: auto;
+        margin-left: 10px;
+        font-family: Arial Rounded MT Bold;
+        overflow: hidden;
+        position: relative;
+    }
+    .marquee a{
+        text-decoration: none;
+        margin-top: 6px;
+        color: green;
+        width: auto;
+        position: absolute;
+        -webkit-animation: marquee 8s linear infinite;
+        -moz-animation: marquee 8s linear infinite;
+        -ms-animation: marquee 8s linear infinite;
+        -o-animation: marquee 8s linear infinite;
+        animation: marquee 8s linear infinite;
+    }
+    @-webkit-keyframes marquee{
+        0% { left: 100%; }
+        100% { left: -100%; }
+    }
+    @-moz-keyframes marquee{
+        0% { left: 100%; }
+        100% { left: -100%; }
+    }
+    @keyframes marquee{
+        0% { left: 100%; }
+        100% { left: -100%; }
+    }
+    #menuV{
+        background-color: rgb(192,64,64);
+        margin-top: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: auto;
+        height: auto;
+    }
+    .marg{
+        margin-top: 10px;
+    }
+    #pepV{
+        margin-left: 20px;
+        color: #FFF;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    #mtlV{
+        margin-left: 20px;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #eltV{
+        margin-left: 20px;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #frm{
+        margin-left: 20px;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #insR{
+        color: #FFF;
+        background-color: rgb(160,160,160);
+        width: auto;
+        height: auto;
+    }
+    #monc{
+        padding: 20px;
+        margin:  8px;
+    }
+    #monc a{
+        text-decoration: none;
+    }
+    h4, h5{
+        padding-top: 20px;
+        margin-left: 5px;
+    }
+    #form{
+        font: bold 13px Verdana, Arial, Serif;
+    }
+    #genrem{
+        margin-left: 20px;
+    }
+    #tel{
+        margin-top: 20px;
+    }
+    #pseudo{
+        margin-top: 20px;
+    }
+    #mdp, #pseudo, #age, #tel
+    {
+        height: 22px;
+        width: 100px;
+        margin-left: 20px;
+    }
+    #verif{
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    #sub{
+        background-color: rgb(192,64,64);
+        font-size: 15px;
+        color: #FFF;
+        margin: 10px;
+        text-align: center;
+    }
+    #secucd
+    {
+        margin-top: 10px;
+        display: block;
+    }
+    #formulaircd
+    {
+        margin-top: 10px;
+        width: 300px;
+        background-color: rgb(192,64,64);
+        display: block;
+    }
+    .flt
+    {
+        width: 80px;
+        margin-left: 2px;
+        color: #FFF;
+    }
+    #subfc
+    {
+        background-color: #555;
+        font-size: 20px;
+        color: #FFF;
+        margin-top: 15px;
+        margin-left: 90px;
+        margin-bottom: 5px;
+    }
+    #atache
+    {
+        background-color: #555;
+        height: 40px;
+        font-size: 20px;
+        color: #FFF;
+        margin-top: 4px;
+        padding-left: 20px;
+        padding-top: 8px;
+        margin-bottom: 10px;
+    }
+    #slider_test
+    {
+      margin-top: 11px;
+    }
+    .slider{
+      margin-left: -15px;
+    }
+    #secui{
+      margin-top: 11px;
+    }
+    .prochainement
+    {
+      padding-left: 20px;
+      padding-top: 10px;
+      height: 33px;
+      color: #FFF;
+      font: bold 15px Verdana, Arial, serif;
+      background-color: rgb(192,64,64);
+    }
+    #rouge
+    {
+      color: red;
+      margin-left: 10px;
+    }
+    a
+    {
+      text-decoration: none;
+    }
+    #curse
+    {
+      color: #333;
+    }
+    #imin
+    {
+      background-color: #CCB;
+      padding: 33px;
+    }
+    #hh{
+      margin: 10px;
+      padding-left: 55px;
+    }
+    #txt1, #txt2
+    {
+      font: normal 15px Verdana, Arial, Serif;
+      padding-left: 39px;
+    }
+    #programme
+    {
+      padding: 9px;
+      color: #FFF;
+      margin-top: 19px;
+      background-color: black;
+    }
+    #ift, #ifte
+    {
+      color: #FFF;
+      padding: 5px;
+      font-size: 12px; 
+      background-color: #555;
+    }
+    #ift{
+        margin-top: -10px;
+    }
+    .cs, .reunion, .tp, .hp, .dp, .pg, .gp{
+        display: inline-block;
+    }
+    .lien{
+      color: #000;
+    }
+    .mutuel{
+        margin-top: 10px;
+    }
+    #ml{
+      background-color: rgb(192,64,64);
+      color: #FFF;
+      padding-left: 15px;
+    }
+    #pjf, #pjfp{
+      background-color: #888;
+      margin-top: -8px;
+      padding: 6px;
+    }
+    #pjfp{
+      color: #FFF;
+    }
+    #pjf :hover, #pjf :focus{
+      padding: 5px 15px;
+      font-weight: bold;
+      background-color: #555;
+    }
+    #pjt, #fond, #lten, #lcycl, #pjts, #vprs, #tns, #ftb{
+      color: #FFF;
+      padding-right: 6px;
+      text-decoration: none;
+      width: auto;
+    }
+    #dtfd, #depot, #rtrt, #solde, #paris, #rtir, #ticket{
+      margin: 15px;
+      width: auto;
+      height: auto;
+    }
+    #gp{
+        float: right;
+    }
+    h6, h5{
+        color: #CCB;
+    }
+    .float{
+        display: block;
+        width: 250px;
+        float: left;
+    }
+    .fc, .fcg
+    {
+      margin-top: 50px;
+      background-color: #2BB;
+      font: bold 15px Arial,serif;
+    }
+    .erreurD
+    {
+      color: #FFF;
+      background-color: #555;
+    }
+    #cdpt{
+      font: bold 17px Arial, verdana, serif;
+      color: #FFF;
+      background-color: rgb(192,64,64);
+      margin-top: 15px;
+      padding: 10px;
+      text-align: center;
+    }
+    #apep, #amtl, #aelt{
+      color: #FFF;
+      text-decoration: none;
+      width: auto;
+    }
+    #contenua{
+      background-color: #FFF;
+      margin-left: auto;
+      height: auto;
+      width: auto;
+      padding: 6px;
+      text-align: justify;
+    }
+    #tita{
+      margin-top: 10px;
+      margin-left: 35px;
+      color: rgb(192, 64, 64);
+      font: bold 15px Arial, Verdana, sans serif;
+    }
+    #exa{
+      margin-left: 10px;
+      display: block;
+      font: normal 16px Arial, Verdana, sans serif;
+    }
+    #pepa, #mtla, #elta{
+      width: auto;
+      height: auto;
+      display: block;
+      padding-right: 10px;
+    }
+    .forum{
+        margin-top: 10px;
+    }
+    #ml, #mlp{
+      background-color: rgb(192,64,64);
+      color: #FFF;
+      padding: 10px;
+    }
+    #contenuc, #contenuf{
+      background-color: #FFF;
+      height: auto;
+      width: auto;
+      margin: 5px;
+      padding: 6px;
+    }
+    #dnv{
+      text-align: center;
+      padding: 30px;
+    }
+    #bnv{
+      background-color: #2BB;
+      padding: 5px;
+      color: #FFF;
+      font: normal 15px Verdana, Arial, Serif;
+    }
+    #ffrm{
+      margin: 22px;
+    }
+    #fmsg{
+      padding: 8px;
+      width: auto;
+    }
+    #emsg{
+      font: bold 15px Arial, verdana, serif;
+      color: #FFF;
+      background-color: #2BB;
+      padding: 12px;
+    }
+    #evenp, #evenpf, #evenpf1
+    {
+      padding: 6px;
+      text-decoration: none;
+      height: auto;
+      background-color: #EEE;
+    }
+    #evenpf, #evenpf1{
+      width: auto;
+    }
+    #evenp1, #evenpf1
+    {
+      background-color: #AAA;
+    }
+    #heur{
+      float: right;
+      color: #777;
+    }
+    #mes{
+      padding: 5px;
+      display: block;
+      width: auto;
+      height: auto;
+      background-color: #4A9;
+    }
+    #pseudonyme{
+      color: #12C;
+      padding: 5px;
+    }
+    a #amsg{
+        text-decoration: none;
+    }
+    .erreurDt
+    {
+      color: #FFF;
+      background-color: #555;
+    }
+    .Inscription{
+        text-align: justify;
+        display: block;
+        margin-left: 5px;
+    }
+    #inscription{
+        background-color: #555;
+        height: 45px;
+        color: #FFF;
+        padding-left: 20px;
+        margin-top: 10px;
+        padding-top: 5px;
+    }
+    #Apropos{
+        margin-top: 20px;
+        margin-left: 15px;
+        color: rgb(192, 64, 64);
+        font-weight: bold;
+    }
+    .LaSoci{
+        font: 15px Source Sans Pro, serif;
+    }
+    .LaSoci p{
+        line-height: 1.5;
+    }
+    .LaSoci em{
+        color: green;
+        font-weight: bold;
+    }
+    .LaSoci li
+    {
+        line-height: 1.5;
+        list-style-type: circle;
+    }
+    .LaSoci li, p, #noir{
+        font-size: 1.1em;
+    }
+    li strong{
+        color: rgb(192,64,64);
+    }
+    #noir{
+        color: black;
+    }
+    #mme, #mr, #mlle{
+        margin: 15px;
+    }
+    #maj{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    #contrat{
+        margin-left: 5px;
+    }
+    .contrat{
+        margin-left: 20px;
+        margin-top: -18px;
+        margin-right: 10px;
+    }
+    #enreg{
+      font: bold 17px Arial, verdana, serif;
+      color: #FFF;
+      background-color: #2BB;
+      padding: 10px;
+    }
+    #val{
+        text-align: center;
+    }
+    #sttr{
+      background-color: #FFF;
+      margin-top: -15px;
+      padding: 5px;
+    }
+    #sttrt{
+      background-color: #FFF;
+      margin-top: 5px;
+      padding: 5px;
+    }
+    #c1, #c2, #c3, #c4, #rc1, #rc2, #rc3, #rc4, #league1, #league2, #league3, #live1, #live2, #live3, #live4, #live5, #live6, #live7, #live8, #live9, #enc, #his{
+      background-color: #888;
+      padding: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin: 5px;
+      color: #000;
+    }
+    #league1, #live1, #live7{
+      margin-left: 10px;
+    }
+    #r1{
+      color: #F33;
+      margin-left: 7px;
+    }
+    #lfoot #sttr, #ltns #sttr{
+        margin-top: 8px;
+        }
+    #premier, #deuxieme, #troisieme, #quatrieme {
+      margin-top: 20px;
+    }
+    .dateTime, .etape{
+     display: inline;
+     margin: 0 0 5px;
+     color: rgba(255, 255, 255, 0.5);
+     font-size: 10px;
+    }
+    .etape{
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .fl{
+     float: right;
+     font-size: 14px;
+    }
+    #pays{
+        margin-top: 5px;
+    }
+    #pays a{
+        text-decoration: none;
+    }
+    #titrec, #titret{
+      background-color: #444;
+      color: #FFF;
+      margin-top: 10px;
+      padding: 6px;
+      font: bold 14px Arial, Verdana, sans serif;
+    }
+    #jten{
+      padding: 2px;
+    }
+    #titret{
+      padding: 0px;
+      margin-left: 4px;
+    }
+    #reunion, #win, #Vnq{
+      background-color: #000;
+      margin-left: -4px;
+      padding: 6px;
+    }
+    #win, #win1, #Vnq{
+      display: inline-block;
+      color: #DDE;
+    }
+    #Vnq{
+      padding-top: 6px;
+      font-size: 12px;
+    }
+    #course{
+      background-color: rgb(192, 64, 64);
+      margin-left: -5px;
+      padding: 6px;
+    }
+    #cotet{
+      background-color: rgb(192, 64, 64);
+      padding: 5px 5px 1px 5px;
+      float: right;
+    }
+    #cotet1, #cotet1cb, #cotet1bf{
+      background-color: rgb(192, 64, 64);
+      display: inline-block;
+      color: #FFF;
+      padding: 5px;
+      text-align: center;
+      float: right;
+    }
+    #cotet1cb{
+        margin-top: -60px;
+        margin-right: 15px;
+    }
+    #cotet1bf{
+        margin-top: -30px;
+        margin-right: 15px;
+    }
+    #miz{
+        width: 80px;
+    }
+    #tenpari{
+        background-color: #999;
+        padding: 2px;
+        padding-top: 10px;
+    }
+    #ncr, #carac{
+      font: bold 18px Arial, Verdana, sans serif;
+      margin-top: 4px;
+    }
+    #i{
+      color: red;
+    }
+    #carac1, #terrain{
+      margin-top: 4px;
+    }
+    #terrain{
+      font: bold 14px Arial, Verdana, sans serif;
+    }
+    #fch{
+      margin-top: 10px;
+    }
+    #tpari{
+      margin-top: 10px;
+      padding: 5px;
+      background-color: #000;
+      color: #FFF;
+      font-size: 19px;
+    }
+    #tparib{
+      margin-top: -10px;
+      width: 210px;
+      padding: 5px;
+      background-color: #169603;
+      color: #FFF;
+      font-size: 19px;
+    }
+    #quint{
+      float: right;
+    }
+    #pari
+    {
+      font: bold 15px Verdana, Arial, serif;
+      color: white;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: rgb(192,64,64);
+    }
+    #parih, #subpari{
+      height: 25px;
+      width: auto;
+    }
+    #subpari{
+      background-color: #2BB;
+      color: #FFF;
+      font: bold 17px Arial, Verdana, sans serif;
+    }
+    #prnt{
+      margin-top: 55px;
+    }
+    #pronc{
+      background-color: #2BB;
+      padding: 5px;
+      margin-left: -6px;
+    }
+    #ndin, #ndinp, #fmailp, #fmail, #mdpt, #ndp, #sap, #edp{
+      margin-bottom: 10px;
+      height: auto;
+    }
+    #evenp, #evenpf
+    {
+      padding: 5px;
+      text-decoration: none;
+      background-color: #EEE;
+    }
+    #evenp1, #evenpf1
+    {
+      padding: 5px;
+      text-decoration: none;
+      background-color: #AAA;
+    }
+    #titre{
+      color: #FFF;
+      font-size: 25px;
+      padding: 6px;
+      background-color: #222;
+    }
+    #infp
+    {
+      color: #FFF;
+      font-size: 15px;
+      margin-top: -16px;
+      margin-bottom: -1px;
+      padding: 4px;
+      background-color: rgb(192,64,64);
+    }
+    #cmpo{
+        display: block;
+    }
+    footer, header{
+        background-color: #000;
+        color: #FFF;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .column ul li{
+        text-decoration: none;
+    }
+    nav ul li{
+        list-style: none;
+        color: #FFF;
+    }
+    #pban{
+        margin-top: -5px;
+        float: right;
+    }

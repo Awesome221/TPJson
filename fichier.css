@@ -1,0 +1,915 @@
+  body
+    {
+        margin-top: 80px;
+        text-align: center;
+        background-color: rgb(232,232,232);
+    }
+    #connexion{
+        height: 76px;
+        float: right;
+        margin-top: -85px;
+        margin-left: 10px;
+        padding-top: 9px;
+        background-color: rgb(99, 0, 0);
+        color: #2BB;
+        width: 27%;
+    }
+    #Rtur
+    {
+      padding-top: 30px;
+      text-decoration: none;
+      color: #FFF;
+    }
+    .e
+    {
+      padding-top: 30px;
+      color: black;
+      font-size: 20px;
+    }
+    #mpo{
+        font-size: 15px;
+        color: #FFF;
+        text-decoration: none;
+    }
+    #cnx
+    {
+      margin-top: 5px;
+      font-size: 20px;
+    }
+    #nc
+    {
+      margin-top: 5px;
+      color: #2BB;
+      text-decoration: none;
+    }
+    #c
+    {
+      background-color: rgb(99, 0, 0);
+      width: 20%;
+    }
+    .projet{
+      margin-top: -519px;
+      margin-left: 300px;
+    }
+    #contenu{
+      margin-left: 10px;
+      margin-top: 15px;
+      height: 211px;
+      width: 505px;
+    }
+    
+    #menuC{
+        background-color: RGB(192,64,64);
+        height: 70px;
+        margin-top: -85px;
+        padding-left: 35px;
+        padding-top: 15px;
+        margin-left: 220px;
+        margin-right: 345px;
+        font-size: 20px;
+        width: 52%;
+    }
+    #menuCe{
+        background-color: RGB(192,64,64);
+        height: 70px;
+        margin-top: -85px;
+        padding-left: 25px;
+        padding-top: 15px;
+        margin-left: 220px;
+        margin-right: 345px;
+        font-size: 20px;
+        width: 52%;
+    }
+    
+    #pep{
+        width: 20px;
+        color: #FFF;
+        text-decoration: none;
+    }
+    #mtl{
+        padding-left: 40px;
+        padding-bottom: 40px;
+        color: #FFF;
+        text-decoration: none;
+    }
+    #elt{
+        padding-left: 40px;
+        padding-bottom: 40px;
+        color: #FFF;
+        text-decoration: none;
+    }
+    #isp{
+        padding-left: 40px;
+        padding-bottom: 40px;
+        color: #FFF;
+        text-decoration: none;
+    }
+    #ade{
+        padding-left: 40px;
+        padding-bottom: 40px;
+        color: #FFF;
+        text-decoration: none;
+    }
+    .time{
+        font-size: 14px;
+        margin-left: 30px;
+    }
+    #secu, #secum, #secul, #secuc, #secup, #secua
+    {
+        display: block;
+        float: right;
+        margin-top: -568px;
+    }
+    #secum{
+      margin-top: -308px;
+    }
+    #secul{
+      margin-top: -309px;
+    }
+    #secuc{
+      margin-top: -327px;
+    }
+    #secup{
+      margin-top: -480px;
+    }
+    #secua{
+      margin-top: -554px;
+    }
+    #formulair, #formulairm, #formulairl, #formulairc, #formulairp, #formulaira
+    {
+        width: 300px;
+        margin-top: -365px;
+        float: right;
+        background-color: rgb(192,64,64);
+        display: block;
+    }
+    #formulairm{
+      margin-top: -105px;
+    }
+    #formulairl{
+      margin-top: -107px;
+    }
+    #formulairc{
+      margin-top: -125px;
+    }
+    #formulairp{
+      margin-top: -275px;
+    }
+    #formulaira{
+      margin-top: -350px;
+    }
+    .mutuel{
+      width: 510px;
+      margin-left: 290px;
+      margin-top: -519px;
+    }
+    .forum{
+      width: auto;
+      margin-left: 290px;
+      margin-top: -519px;
+    }
+    #ml, #mlp{
+      background-color: rgb(192,64,64);
+      color: #FFF;
+      padding: 15px;
+      width: 510px;
+    }
+    #mlp{
+      width: 500px;
+    }
+    #pjf, #pjfp{
+      background-color: #888;
+      margin-top: -19px;
+      padding: 6px;
+      width: 528px;
+    }
+    #pjfp{
+      color: #FFF;
+      width: 518px;
+    }
+    #pjf :hover, #pjf :focus{
+      padding: 5px 15px;
+      font-weight: bold;
+      background-color: #555;
+    }
+    #pjt, #fond, #pjts{
+      color: #FFF;
+      padding-right: 10px;
+      text-decoration: none;
+      width: 264px;
+    }
+    #apep, #amtl, #aelt{
+      color: #FFF;
+      text-decoration: none;
+      width: 100px;
+    }
+    #amtl, #aelt{
+      margin-left: 5px;
+    }
+    #dtfd, #depot, #rtrt, #solde, #rtir, #ticket{
+      margin: 20px;
+      width: 528px;
+      height: 187px;
+    }
+    #pepa, #mtla, #elta{
+      width: auto;
+      height: auto;
+      display: block;
+      padding-right: 10px;
+    }
+    #elta, #mtla{
+      height: 391px;
+    }
+    #ffrm{
+      margin: 22px;
+    }
+    #fmsg{
+      padding: 8px;
+      width: 537px;
+    }
+    #emsg{
+      font: bold 15px Arial, verdana, serif;
+      color: #FFF;
+      background-color: rgb(192,64,64);
+      padding: 8px;
+    }
+    #cdpt{
+      font: bold 15px Arial, verdana, serif;
+      color: #FFF;
+      margin-top: 13px;
+      margin-left: 200px;
+      background-color: rgb(192,64,64);
+      padding: 8px;
+    }
+    #ndin, #fmail, #mdpt{
+      margin-bottom: 10px;
+      height: 22px;
+    }
+    #cdp{
+      width: 130px;
+      height: 22px;
+    }
+    
+    #menuV{
+        background-color: rgb(192,64,64);
+        margin-top: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: 280px;
+        height: 150px;
+    }
+    .marg{
+        margin-top: 10px;
+    }
+    #pepV{
+        margin-left: 20px;
+        color: #FFF;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    #mtlV{
+        margin-left: 20px;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #eltV{
+        margin-left: 20px;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #frm{
+        margin-left: 20px;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #insR{
+        color: #FFF;
+        background-color: rgb(160,160,160);
+        width: 280px;
+        height: 300px;
+        margin-top: -21px;
+    }
+    h4{
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+    #form{
+        font: bold 13px Verdana, Arial, Serif;
+    }
+    #genrem{
+        margin-left: 20px;
+    }
+    #genref{
+        margin-left: 40px;
+    }
+    #tel{
+        margin-left: 20px;
+        width: 100px;
+        height: 22px;
+        margin-top: 20px;
+    }
+    #age{
+        width: 100px;
+        height: 22px;
+        margin-left: 20px;
+    }
+    #ind
+    {
+        margin-left: -140px;
+    }
+    #pseudo{
+        width: 100px;
+        height: 22px;
+        margin-top: 20px;
+        margin-left: 20px;
+        height: 22px;
+    }
+    #mdp
+    {
+        height: 22px;
+        width: 100px;
+        margin-left: 20px;
+    }
+    #mdpc, #log
+    {
+    border: 1px solid #fff;
+    box-shadow: inset 0 0 4px 1px #d9dbde;
+    color: #000;
+    width: 140px;
+    padding: 0 2px;
+    height: 20px;
+    -webkit-box-shadow:inset 0 0 4px 1px #d9dbde
+    }
+    #sttr{
+      background-color: #FFF;
+      margin-left: -20px;
+      margin-top: -15px;
+      padding: 5px;
+      width: 530px;
+    }
+    #c1, #c2, #c3, #c4, #rc1, #rc2, #rc3, #rc4{
+      background-color: #888;
+      padding: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin: 5px;
+      color: #000;
+    }
+    #c1, #rc1{
+      margin-left: 60px;
+    }
+    #r1{
+      color: #F33;
+      margin-left: 7px;
+    }
+    #premier, #deuxieme{
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    #titrec{
+      background-color: #444;
+      color: #FFF;
+      margin-top: 20px;
+      margin-left: -20px; 
+      padding: 6px;
+      width: 530px;
+      font: bold 18px Arial, Verdana, sans serif;
+    }
+    #reunion{
+      background-color: #000;
+      margin-left: -4px;
+      padding: 6px;
+    }
+    #course{
+      background-color: rgb(192, 64, 64);
+      margin-left: -5px;
+      padding: 6px;
+    }
+    #contenuc, #contenuf{
+      background-color: #FFF;
+      height: 300px;
+      width: 530px;
+      margin-left: -20px;
+      padding: 6px;
+    }
+    #contenua{
+      background-color: #FFF;
+      margin-left: auto;
+      height: auto;
+      width: 840px;
+      padding: 6px;
+    }
+    #tita{
+      margin-left: 35px;
+      color: rgb(192, 64, 64);
+      font: bold 15px Arial, Verdana, sans serif;
+    }
+    #exa{
+      margin-top: -11px;
+      margin-left: 10px;
+      display: block;
+      font: normal 16px Arial, Verdana, sans serif;
+    }
+    #exal{
+      margin-left: 10px;
+      margin-top: 10px;
+      display: block;
+      font: normal 16px Arial, Verdana, sans serif;
+    }
+    #contenuf{
+      height: auto;
+      width: auto;
+      margin-top: -18px;
+      margin-left: 0;
+      padding-top: 20px;
+    }
+    #i{
+      color: red;
+    }
+    #ncr, #carac{
+      font: bold 18px Arial, Verdana, sans serif;
+      margin-top: 4px;
+    }
+    #carac1, #terrain{
+      margin-top: 4px;
+    }
+    #terrain{
+      font: bold 14px Arial, Verdana, sans serif;
+    }
+    #fch{
+      margin-top: 10px;
+    }
+    #tpari{
+      margin-left: -6px;
+      margin-top: 10px;
+      padding: 5px;
+      background-color: #000;
+      color: #FFF;
+      font-size: 19px;
+    }
+    #subpari{
+      background-color: #2BB;
+      color: #FFF;
+      font: bold 17px Arial, Verdana, sans serif;
+    }
+    #parih, #subpari{
+      height: 25px;
+    }
+    #quint{
+      float: right;
+    }
+    #prnt{
+      margin-top: 55px;
+    }
+    #pronc{
+      background-color: #2BB;
+      padding: 5px;
+      margin-left: -6px;
+    }
+    #verif{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    #sub{
+        background-color: rgb(192,64,64);
+        font-size: 20px;
+        color: #FFF;
+        margin-top: 20px;
+        margin-left: 48px;
+        text-align: center;
+    }
+    #subfc
+    {
+        background-color: #555;
+        font-size: 20px;
+        color: #FFF;
+        margin-top: 15px;
+        margin-left: 90px;
+        margin-bottom: 10px;
+    }
+    #news{
+        font: bold 11px Verdana, Arial, Serif;
+        margin-left: 60px;
+    }
+    .marquee{
+        margin-top: -31px;
+        margin-left: 323px;
+        height: 1em;
+        width: auto;
+        overflow: hidden;
+        position: relative;
+    }
+    .marquee span{
+        width: auto;
+        position: absolute;
+        -webkit-animation: marquee 8s linear infinite;
+        -moz-animation: marquee 8s linear infinite;
+        -ms-animation: marquee 8s linear infinite;
+        -o-animation: marquee 8s linear infinite;
+        animation: marquee 8s linear infinite;
+    }
+    
+    @-webkit-keyframes marquee{
+        0% { left: 100%; }
+        100% { left: -100%; }
+    }
+    @-moz-keyframes marquee{
+        0% { left: 100%; }
+        100% { left: -100%; }
+    }
+    @keyframes marquee{
+        0% { left: 100%; }
+        100% { left: -100%; }
+    }
+    
+
+    #inscription{
+        background-color: #555;
+        height: 35px;
+        color: #FFF;
+        margin-top: -10px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    #atache
+    {
+        background-color: #555;
+        height: 35px;
+        font-size: 20px;
+        color: #FFF;
+        margin-top: 4px;
+        padding-left: 20px;
+        padding-top: 15px;
+        margin-bottom: 5px;
+    }
+    .inscrit{
+        width: 515px;
+        margin-left: 300px;
+        margin-top: -500px;
+    }
+    #etatInsTitre{
+        width: 530px;
+        background-color: #555;
+        color: #FFF;
+        height: 40px;
+        margin-left: 300px;
+        margin-top: -500px;
+        padding-left: 20px
+    }
+    #etatIns{
+        width: 530px;
+        margin-left: 300px;
+        padding-top: -400px;
+        padding-left: 20px;
+    }
+    #mr{
+        margin-left: 30px;
+    }
+    #mme{
+        margin-left: 50px;
+    }
+    .float{
+        display: block;
+        width: 220px;
+    }
+    .flt
+    {
+        display: block;
+        width: 130px;
+        margin-left: 10px;
+        float: left;
+        color: #FFF;
+    }
+    #enreg{
+        background-color: #555;
+        color: #FFF;
+        height: 30px;
+        margin-left: 170px;
+        font-size: 15px;
+    }
+    #maj{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    #contrat{
+        margin-left: 30px;
+    }
+    .contrat{
+        margin-left: 48px;
+        margin-top: -18px;
+    }
+    .erreurf{
+      padding-top: 80px;
+      margin-left: 300px;
+    }
+    .RreurF{
+      background-color: #777;
+    }
+    #esp, #espm{
+      margin-top: 80px;
+    }
+    .erreurD
+    {
+      margin-top: 80px;
+      margin-left: 300px;
+      color: #FFF;
+      background-color: #555;
+    }
+    .erreurDt
+    {
+      color: #FFF;
+      background-color: #555;
+    }
+    .fc, .fcg
+    {
+      margin-top: 50px;
+      margin-left: 300px;
+      background-color: #2BB;
+      font: bold 15px Arial,serif;
+    }
+    .fcm{
+      margin-top: -300px;
+      background-color: #2BB;
+      font: bold 15px Arial,serif;
+    }
+    #rsld{
+      margin-left: 300px;
+    }
+    .fcg{
+      margin-left: 200px;
+    }
+    .erreurt{
+      margin-top: 80px;
+      margin-left: 300px;
+    }
+    #slider_test
+    {
+      width: 100% auto;
+      margin-top: -500px;
+      margin-left: 292px;
+    }
+    #secui{
+      float: right;
+      margin-top: -498px;
+      width: 300px;
+    }
+    .prochainement
+    {
+      padding-left: 20px;
+      padding-top: 10px;
+      width: 250px;
+      height: 33px;
+      color: #FFF;
+      font: bold 15px Verdana, Arial, serif;
+      background-color: rgb(192,64,64);
+    }
+    #prog
+    {
+      margin-left: 290px;
+    }
+    #rouge
+    {
+      color: red;
+      margin-left: 10px;
+    }
+    a
+    {
+      text-decoration: none;
+    }
+    #curse
+    {
+      color: #333;
+    }
+    #imin
+    {
+      background-color: #CCB;
+      width: 267px;
+      height: 125px;
+      margin-top: -184px;
+      margin-left: 560px;
+      padding-top: 58px;
+    }
+    #pari
+    {
+      font: bold 15px Verdana, Arial, serif;
+      color: white;
+      margin-left: 80px;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: rgb(192,64,64);
+    }
+    #hh{
+      margin-left: 95px;
+    }
+    #txt1
+    {
+      font: normal 15px Verdana, Arial, Serif;
+      margin-left: 70px;
+      margin-top: 10px;
+    }
+    #txt2
+    {
+      margin-left: 64px;
+      margin-top: 20px;
+    }
+    #programme
+    {
+      padding: 10px;
+      color: #FFF;
+      background-color: black;
+    }
+    #titre{
+      color: #FFF;
+      margin-top: 229px;
+      font-size: 25px;
+      width: 827px;
+      height: 35px;
+      padding-top: 5px;
+      padding-left: 10px;
+      background-color: #222;
+    }
+    #infp
+    {
+      color: #FFF;
+      font-size: 15px;
+      margin-top: -25px;
+      width: 834px;
+      height: 25px;
+      padding-top: 5px;
+      padding-left: 3px;
+      background-color: rgb(192,64,64);
+    }
+    #titu{
+      display: block;
+      margin-left: 20px;
+    }
+    #nomp{
+      display: block;
+      margin-top: -18px;
+      margin-left: 280px;
+    }
+    #sect{
+      margin-top: -17px;
+      margin-left: 580px;
+      display: block;
+    }
+    #ift
+    {
+      color: #FFF;
+      margin-top: -19px;
+      padding: 5px;
+      font-size: 13px; 
+      background-color: #555;
+    }
+    #run
+    {
+      margin: 20px;
+    }
+    #run1, #run2, #run3
+    {
+      margin: 25px;
+    }
+    #crs
+    {
+      margin: 40px;
+    }
+    #crs1, #crs2, #crs3, #crs4
+    {
+      margin: 58px;
+    }
+    #typ
+    {
+      margin: 70px;
+    }
+    #typ1, #typ4
+    {
+      margin: 63px;
+    }
+    #typ2, #typ3
+    {
+      margin: 67px;
+    }
+    #hpd
+    {
+      margin: 150px;
+    }
+    #hpd1, #hpd3
+    {
+      margin: 144px;
+    }
+    #hpd1_4, #hpd2
+    {
+      margin: 147px;
+    }
+    #dbt
+    {
+      margin: 150px;
+    }
+    #dbt1, #dbt4
+    {
+      margin: 124px;
+    }
+    #dbt2
+    {
+      margin: 120px;
+    }
+    #dbt3
+    {
+      margin: 117px;
+    }
+    #even, #even1
+    {
+      padding: 8px;
+      text-decoration: none;
+      color: #000;
+      background-color: #EEE;
+    }
+    .lien{
+      color: #000;
+    }
+    #evenp, #evenpf
+    {
+      margin-top: -11px;
+      padding: 6px;
+      text-decoration: none;
+      height: 30px;
+      background-color: #EEE;
+    }
+    #evenp, #evenp1{
+      width: 825px;
+    }
+    #evenpf, #evenpf1{
+      width: auto;
+    }
+    #fc{
+      margin-top: 25px;
+    }
+    #evenp1, #evenpf1
+    {
+      height: 30px;
+      margin-top: -5px;
+      padding: 6px;
+      text-decoration: none;
+      background-color: #AAA;
+    }
+    #even1
+    {
+      background-color: #DDD;
+    }
+    #iftel
+    {
+      color: #FFF;
+      padding: 5px;
+      font-size: 15px; 
+      background-color: #555;
+    }
+    #evt{
+      margin: 100px;
+    }
+    #tt{
+      margin: 180px;
+    }
+    #hr{
+      margin: 90px;
+    }
+    #runn1{
+      margin: 40px;
+    }
+    #evt1{
+      margin: 105px;
+    }
+    #tt1{
+      margin: 178px;
+    }
+    #hr1{
+      margin: 85px;
+    }
+    #heur{
+      float: right;
+      color: #777;
+    }
+    #mes{
+      display: inline-block;
+      width: 625px;
+    }
+    #pseudonyme{
+      color: #12C;
+      padding: 5px;
+    }
+    #dnv{
+      text-align: center;
+      padding: 30px;
+    }
+    #bnv{
+      background-color: #2BB;
+      padding: 5px;
+      color: #FFF;
+      font: normal 15px Verdana, Arial, Serif;
+    }
